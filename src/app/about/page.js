@@ -71,7 +71,7 @@ export default function AboutPage() {
               remembers as their own.
             </h2>
             <p className={`${styles.body} ${styles.bodyLight}`}>
-              We are building toward a future where Clothie Dynasty is not simply a brand women wear — it is a brand women belong to. Where our name is spoken in the same breath as legacy. Where the women who wore us first say: "We knew before the world did."
+              We are building toward a future where Clothie Dynasty is not simply a brand women wear — it is a brand women belong to. Where our name is spoken in the same breath as legacy. Where the women who wore us first say: &quot;We knew before the world did.&quot;
             </p>
           </div>
         </section>
@@ -89,7 +89,7 @@ export default function AboutPage() {
                 Clothie Dynasty was born from a personal frustration. As a woman navigating both corporate boardrooms and creative spaces, I found that the fashion industry often asked me to choose between elegance and power, between femininity and authority.
               </p>
               <p className={styles.body}>
-                I didn't want to choose. I wanted garments that held the same complexity as the women wearing them. So, I built a brand that doesn't just make clothes, but crafts armor for the modern woman.
+                I didn&apos;t want to choose. I wanted garments that held the same complexity as the women wearing them. So, I built a brand that doesn&apos;t just make clothes, but crafts armor for the modern woman.
               </p>
               <div style={{ marginTop: 'var(--space-md)' }}>
                 <p style={{ fontFamily: 'var(--font-serif)', fontSize: '1.5rem', color: 'var(--color-charcoal)' }}>
