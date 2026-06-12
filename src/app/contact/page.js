@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import ScrollReveal from '../../components/ScrollReveal/ScrollReveal';
+import CustomDropdown from '../../components/CustomDropdown/CustomDropdown';
 import styles from './contact.module.css';
 
 export default function ContactPage() {
@@ -137,16 +138,13 @@ export default function ContactPage() {
                   </div>
 
                   <div className={styles.field}>
-                    <label className={styles.label} htmlFor="contact-subject">Subject</label>
-                    <select
-                      id="contact-subject"
-                      name="subject"
-                      className={styles.input}
+                    <label className={styles.label} id="contact-subject-label">Subject</label>
+                    <CustomDropdown
+                      options={subjects}
                       value={form.subject}
-                      onChange={handleChange}
-                    >
-                      {subjects.map(s => <option key={s} value={s}>{s}</option>)}
-                    </select>
+                      onChange={(val) => setForm(prev => ({ ...prev, subject: val }))}
+                      label="Select a subject..."
+                    />
                   </div>
 
                   <div className={styles.field}>

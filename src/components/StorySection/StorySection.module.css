@@ -106,7 +106,23 @@
     padding: 0 var(--space-md);
     gap: var(--space-2xl);
   }
-  .photoBlock { height: 480px; }
-  .photoMain { right: 0; bottom: 60px; }
-  .photoAccent { left: 0; }
+  .photoBlock {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+  .photoMain, .photoAccent, .floatingLabel {
+    position: relative;
+    inset: auto;
+    width: 100%;
+  }
+  .photoMain { height: 450px; }
+  .photoAccent { height: 350px; border: none; }
+  .floatingLabel {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: var(--space-lg);
+  }
 }
