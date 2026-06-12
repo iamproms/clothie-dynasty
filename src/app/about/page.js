@@ -114,7 +114,7 @@ export default function AboutPage() {
                   alt="Founder Accent"
                   fill
                   sizes="(max-width: 768px) 50vw, 25vw"
-                  style={{ objectFit: 'cover', objectPosition: 'center' }}
+                  style={{ objectFit: 'cover', objectPosition: 'center top' }}
                 />
               </div>
             </div>
